@@ -1,0 +1,54 @@
+/* ----------------------------------------
+  Inro Page Starts
+  ----------------------------------------- */
+
+body {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  overflow: hidden;
+}
+
+.background-video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: -1;
+}
+
+.Select-Con {
+  display: flex;
+  /* background-color: red; */
+  width: max-content;
+  height: max-content;
+}
+
+.Movies,
+.Anime {
+  border-radius: 20px;
+  margin: 20px;
+  content: "";
+  /* background: red; */
+  width: 314px;
+  height: 472px;
+  backdrop-filter: blur(8px);
+  background-color: rgba(0, 0, 0, 0.61);
+}
+
+@media (max-width: 750px) {
+  body {
+    background: no-repeat;
+    background-size: cover;
+  }
+}
+
+/* ----------------------------------------
+  Inro Page Ends
+  ----------------------------------------- */
