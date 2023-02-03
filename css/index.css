@@ -42,10 +42,37 @@ body {
   background-color: rgba(0, 0, 0, 0.3);
 }
 
-@media (max-width: 750px) {
+@media (max-width: 768px) {
   body {
     background: no-repeat;
     background-size: cover;
+  }
+
+  .Select-Con {
+    flex-direction: column;
+  }
+
+  .Movies,
+  .Anime {
+    width: 350px;
+    height: 200px;
+  }
+}
+
+@media (max-width: 480px) {
+  body {
+    background: no-repeat;
+    background-size: cover;
+  }
+
+  .Select-Con {
+    flex-direction: column;
+  }
+
+  .Movies,
+  .Anime {
+    width: 350px;
+    height: 200px;
   }
 }
 
