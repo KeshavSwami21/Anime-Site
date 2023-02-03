@@ -37,6 +37,14 @@ body {
   z-index: -1;
 } */
 
+.Greet{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
 .Select-Con {
   display: flex;
   /* background-color: red; */
@@ -44,14 +52,20 @@ body {
   height: max-content;
 }
 
+h1{
+  color: white;
+}
+
 .Movies,
 .Anime {
+  font-size: 30px;
+  padding: 10px;
   border-radius: 20px;
   margin: 20px;
   content: "";
   /* background: red; */
-  width: 314px;
-  height: 472px;
+  width:fit-content;
+  height: fit-content;
   backdrop-filter: blur(5px);
   background-color: rgba(0, 0, 0, 0.3);
 }
